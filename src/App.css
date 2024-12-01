@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+  font-family: "Inter";
+}
+
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer{
+  font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0px auto;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section{
+  display: flex;
+  width: 341px;
+  padding: 10px;
+  border: 0.9px solid #C8C8C8;
+  border-radius: 0px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.CardSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cardLeftSect {
+  display: flex;
+  justify-content: center;
+}
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none; 
+  width: 27px;
+  height: 20px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Default color */
+input[type="radio"]:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  bottom: 1px;
+  border-radius: 50%;
+  background: transparent;
+  margin: 4px auto;
+}
+
+input[type="radio"]:checked:before {
+  background: #ff6b82;
+}
+
+/* Hover effect */
+input[type="radio"]:hover {
+  border-color: #ff6b82;
+}
+input[type="radio"]:checked {
+  border-color: #ff6b82;
+}
+
+.discount{
+  background-color: #ff6b82;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    border-radius: 1px;
+    padding: 2px;
+}
+
+
+.highlighted{
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  background-color: #ff6b82;
+  color: rgb(255, 255, 255);
+  padding: 2px 8px;
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.AddToCardButton {
+  width: 100%;
+  background: #ff6b82;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.AddToCardButton:hover {
+  background: #ff6b82;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.dropdown-item {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  justify-content: initial;
+  margin-bottom: 15px;
+  align-items: end;
+}
+
+.dropdown-item label {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.dropdown-item select {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #D9D9D9;
+  width: 80%;
+}
+
+.item-number {
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+.totalSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.freeDelivery{
+font-size: 14px;
+color: #ff6b82;
+}
+
+.total{
+  font-size: 14px;
+}
+.copyWrite{
+  margin-top: 5px;
+  float: right;
+  color: #00000066;
+font-size: 12px;
+font-style: italic;
+font-weight: 400;
+line-height: 14.52px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+
